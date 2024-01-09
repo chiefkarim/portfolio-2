@@ -38,12 +38,20 @@ export default function Home() {
           <div className="container">
             <div
               data-w-id="4d25a190-de63-e23d-efe3-a29000c37211"
+              style={{
+                transform:
+                  "  translate3d(0, 60px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0) ",
+              }}
               className="headline-wrap"
             >
               <h1 className="hero-heading">Hi, I’m Karim,</h1>
               <div className="highlight-box">
                 <div
                   data-w-id="5b4e90f0-f7c3-c61e-b8f7-2c44cff796d9"
+                  style={{
+                    transform:
+                      "translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0) ",
+                  }}
                   className="highlight"
                 ></div>
                 <h1 className="hero-heading">Web Designer</h1>
@@ -52,6 +60,10 @@ export default function Home() {
               <div className="highlight-box">
                 <div
                   data-w-id="e96147a8-9b66-646c-c7c5-0b194ab70faa"
+                  style={{
+                    transform:
+                      "translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                  }}
                   className="highlight"
                 ></div>
                 <h1 className="hero-heading">Developer</h1>
@@ -59,6 +71,10 @@ export default function Home() {
             </div>
             <p
               data-w-id="22bdcc57-2556-cdbf-cbc3-a0a201a6607d"
+              style={{
+                transform:
+                  " translate3d(0, 60px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+              }}
               className="hero-paragraph"
             >
               I design and build beautiful websites for businesses around the
@@ -68,10 +84,21 @@ export default function Home() {
             </p>
             <div
               data-w-id="a4785d04-0e05-8067-457b-d9ff66dbdc0e"
+              style={{
+                transform:
+                  "translate3d(0, 60px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0) ",
+              }}
               className="button-wrapper"
             >
               <div className="button-border">
-                <a href="#Portfolio" className="button w-button">
+                <a
+                  href="#Portfolio"
+                  style={{
+                    transform:
+                      "translate3d(-8px, -8px, 0) scale3d(1, 1, 1)rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                  }}
+                  className="button w-button"
+                >
                   see my work
                 </a>
               </div>
@@ -117,10 +144,10 @@ export default function Home() {
                       src="https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%20Mockup-min.jpg"
                       sizes="(max-width: 479px) 100vw, (max-width: 767px) 78vw, (max-width: 991px) 523px, 36vw"
                       srcSet="
-                    https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%2520Mockup-min-p-500.jpeg  500w,
-                    https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%2520Mockup-min-p-800.jpeg  800w,
-                    https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%20Mockup-min.jpg          1046w
-                  "
+                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%2520Mockup-min-p-500.jpeg  500w,
+                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%2520Mockup-min-p-800.jpeg  800w,
+                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%20Mockup-min.jpg          1046w
+                    "
                       className="mockup-img"
                     />
                     <img
@@ -159,6 +186,10 @@ export default function Home() {
                     >
                       <div className="button-border">
                         <a
+                          style={{
+                            transform:
+                              "translate3d(-8px, -8px, 0) scale3d(1, 1, 1)rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                          }}
                           href="/project/team-website"
                           className="button w-button"
                         >
@@ -192,10 +223,10 @@ export default function Home() {
                       src="https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%20app-min.jpg"
                       sizes="(max-width: 479px) 100vw, (max-width: 767px) 78vw, (max-width: 991px) 523px, 36vw"
                       srcSet="
-                    https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%2520app-min-p-500.jpeg  500w,
-                    https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%2520app-min-p-800.jpeg  800w,
-                    https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%20app-min.jpg          1046w
-                  "
+                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%2520app-min-p-500.jpeg  500w,
+                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%2520app-min-p-800.jpeg  800w,
+                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%20app-min.jpg          1046w
+                    "
                       className="mockup-img"
                     />
                     <img
@@ -233,6 +264,10 @@ export default function Home() {
                     >
                       <div className="button-border">
                         <a
+                          style={{
+                            transform:
+                              " translate3d(-8px, -8px, 0) scale3d(1, 1, 1)rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                          }}
                           href="/project/chat-app-website"
                           className="button w-button"
                         >
@@ -252,14 +287,20 @@ export default function Home() {
           <div className="what-i-do">
             <div
               data-w-id="7b872fb9-abe8-ebfc-9a9b-4d0bbe0f1489"
-              className="left-column"
+              className="left-column "
             >
               <h1 className="hero-heading">What</h1>
               <div
                 data-w-id="846a3ab5-5829-bc1b-9a32-a92b2ac61829"
                 className="highlight-box"
               >
-                <div className="highlight"></div>
+                <div
+                  style={{
+                    transform:
+                      "translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0)rotateY(0) rotateZ(0) skew(0, 0)",
+                  }}
+                  className="highlight"
+                ></div>
                 <h1 className="hero-heading">I do</h1>
               </div>
             </div>
@@ -297,20 +338,26 @@ export default function Home() {
                 data-w-id="d2975850-eaa6-2a4c-c8b9-3f2f222c21b9"
                 className="highlight-box"
               >
-                <div className="highlight"></div>
+                <div
+                  style={{
+                    transform:
+                      "translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
+                  }}
+                  className="highlight"
+                ></div>
                 <h1 className="hero-heading">work?</h1>
               </div>
             </div>
             <div
               data-w-id="d2975850-eaa6-2a4c-c8b9-3f2f222c21bd"
-              className="right-column"
+              className="right-column "
             >
               <p>
                 If you need a modern and powerful website for your business,
                 startup or yourself, I am available for work. You can email me
                 directly at
-                <a href="mailto:contact@karimmenna.com" className="yellow-link">
-                  contact@karimmenna.com
+                <a href="mailto:hello@email.com" className="yellow-link">
+                  hello@email.com
                 </a>
               </p>
             </div>
