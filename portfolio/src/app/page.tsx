@@ -1,6 +1,11 @@
 import Image from "next/image";
+import Swup from "swup";
 
 export default function Home() {
+  if (typeof window !== "undefined") {
+    const swup = new Swup();
+  }
+
   return (
     <>
       <div
@@ -18,7 +23,7 @@ export default function Home() {
             aria-current="page"
             className="brand w-nav-brand w--current"
           >
-            <div className="logo">Duke.</div>
+            <div className="logo">Karim.</div>
           </a>
           <nav role="navigation" className="nav-menu w-nav-menu">
             <a href="/#Portfolio" className="nav-link yellow-link w-nav-link">
@@ -36,68 +41,29 @@ export default function Home() {
       <div className="hero">
         <div className="hero-wrap">
           <div className="container">
-            <div
-              data-w-id="4d25a190-de63-e23d-efe3-a29000c37211"
-              style={{
-                transform:
-                  "  translate3d(0, 60px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0) ",
-              }}
-              className="headline-wrap"
-            >
+            <div className="headline-wrap fadeInUp   "  >
               <h1 className="hero-heading">Hi, I’m Karim,</h1>
-              <div className="highlight-box">
-                <div
-                  data-w-id="5b4e90f0-f7c3-c61e-b8f7-2c44cff796d9"
-                  style={{
-                    transform:
-                      "translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0) ",
-                  }}
-                  className="highlight"
-                ></div>
+              <div className="highlight-box   ">
+                <div className="highlight leftSlideIn opacity-0"></div>
                 <h1 className="hero-heading">Web Designer</h1>
               </div>
               <h1 className="hero-heading">and</h1>
               <div className="highlight-box">
-                <div
-                  data-w-id="e96147a8-9b66-646c-c7c5-0b194ab70faa"
-                  style={{
-                    transform:
-                      "translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                  }}
-                  className="highlight"
-                ></div>
+                <div className="highlight leftSlideIn opacity-0"></div>
                 <h1 className="hero-heading">Developer</h1>
               </div>
             </div>
-            <p
-              data-w-id="22bdcc57-2556-cdbf-cbc3-a0a201a6607d"
-              style={{
-                transform:
-                  " translate3d(0, 60px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-              }}
-              className="hero-paragraph"
-            >
+            <p className="hero-paragraph fadeInUp delay-500" >
               I design and build beautiful websites for businesses around the
               globe. If you need a modern and powerful website, send me an
               email. If we are a good fit, I will give you a time and cost
               estimate.
             </p>
-            <div
-              data-w-id="a4785d04-0e05-8067-457b-d9ff66dbdc0e"
-              style={{
-                transform:
-                  "translate3d(0, 60px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0) ",
-              }}
-              className="button-wrapper"
-            >
+            <div className="button-wrapper fadeInUp delay-500" >
               <div className="button-border">
                 <a
                   href="#Portfolio"
-                  style={{
-                    transform:
-                      "translate3d(-8px, -8px, 0) scale3d(1, 1, 1)rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                  }}
-                  className="button w-button"
+                  className="button preserve-3d w-button duration-200 ease-out  hover:translate-x-0 hover:translate-y-0 translate-z-0 -translate-x-2 -translate-y-2 scale-x-100 scale-y-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 hover:translate3d(0,0,0) "
                 >
                   see my work
                 </a>

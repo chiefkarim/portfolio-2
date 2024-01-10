@@ -13,8 +13,14 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      
     },
   },
-  plugins: [],
+  customProperties: {
+    transformStyle: {
+      preserve3d: 'preserve-3d',
+    },
+  },
+  plugins: [require('tailwindcss-3d')],
 }
 export default config

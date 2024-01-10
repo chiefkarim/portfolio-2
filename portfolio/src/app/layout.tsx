@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-const inter = Inter({ subsets: ["latin"] });
-import Script from "next/script";
-import Head from "next/head";
-import Font from "@/components/setFont";
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,29 +15,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      
       data-wf-domain="karimmenna.com"
-      data-wf-page="5e1e0172db1e6fd3f5507c04"
+     
     >
-      <Head>
-        <link href="https://fonts.googleapis.com" rel="preconnect" />
-        <link
-          href="https://fonts.gstatic.com"
-          rel="preconnect"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://uploads-ssl.webflow.com/5e1e0172db1e6f151e507c06/5e1e0172db1e6f19e4507c17_Favicon.png"
-          rel="shortcut icon"
-          type="image/x-icon"
-        />
-        <link
-          href="https://uploads-ssl.webflow.com/5e1e0172db1e6f151e507c06/5e1e0172db1e6f18ff507c18_Webclip.png"
-          rel="apple-touch-icon"
-        />
-      </Head>
-
-      <Font />
-      <body className={inter.className}>{children}</body>
+      <body >{children}</body>
     </html>
   );
 }

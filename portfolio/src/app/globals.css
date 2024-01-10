@@ -26,6 +26,63 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    -webkit-transform: translate3d(0px, 60px, 0px) scale3d(1, 1, 1)
+      rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -ms-transform: translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -o-transform: translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg);
+    -ms-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg);
+    -o-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg);
+}
+}
+
+/* fades content in from the bottom and up*/
+.fadeInUp {
+  animation: fadeInUp 400ms ease-in  forwards;
+  -webkit-animation: fadeInUp 400ms ease-in  forwards;
+}
+.leftSlideIn {
+  animation: leftSlideIn 600ms ease-in 1s forwards;
+  -webkit-animation: leftSlideIn 600ms ease-in 1s forwards;
+}
+@keyframes leftSlideIn{
+ from{
+  opacity:0;
+  transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  -webkit-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  -moz-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  -ms-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  -o-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}to{
+  opacity:1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  -ms-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  -o-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+
+}
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -300,7 +357,7 @@ body {
   color: #333;
   background-color: #fff;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   font-size: 14px;
   line-height: 20px;
 }
@@ -2249,7 +2306,7 @@ textarea.w-select {
 
 body {
   color: #000;
-  font-family: Muli, sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
   line-height: 180%;
 }
@@ -2257,9 +2314,9 @@ body {
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
-  font-family: Abril Fatface, sans-serif;
+  font-family: Abril Fatface;
   font-size: 7vh;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 130%;
 }
 
