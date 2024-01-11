@@ -41,7 +41,7 @@ export default function Home() {
       <div className="hero">
         <div className="hero-wrap">
           <div className="container">
-            <div className="headline-wrap fadeInUp   "  >
+            <div className="headline-wrap fadeInUp   ">
               <h1 className="hero-heading">Hi, I’m Karim,</h1>
               <div className="highlight-box   ">
                 <div className="highlight leftSlideIn opacity-0"></div>
@@ -49,17 +49,17 @@ export default function Home() {
               </div>
               <h1 className="hero-heading">and</h1>
               <div className="highlight-box">
-                <div className="highlight leftSlideIn opacity-0"></div>
+                <div className="highlight leftSlideIn2 opacity-0"></div>
                 <h1 className="hero-heading">Developer</h1>
               </div>
             </div>
-            <p className="hero-paragraph fadeInUp delay-500" >
+            <p className="hero-paragraph fadeInUp delay-500">
               I design and build beautiful websites for businesses around the
               globe. If you need a modern and powerful website, send me an
               email. If we are a good fit, I will give you a time and cost
               estimate.
             </p>
-            <div className="button-wrapper fadeInUp delay-500" >
+            <div className="button-wrapper fadeInUp delay-500">
               <div className="button-border">
                 <a
                   href="#Portfolio"
@@ -83,12 +83,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+
       <div id="Portfolio" className="section">
         <div className="container">
           <div className="w-dyn-list">
             <div role="list" className="w-dyn-items">
               <div role="listitem" className="w-dyn-item">
-                <div className="project">
+                <div className="project opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px] ">
                   <div className="left-column">
                     <h4 className="heading-5">latest work</h4>
                     <h1>Team App website</h1>
@@ -104,21 +105,17 @@ export default function Home() {
                     href="/project/team-website"
                     className="mockup-column w-inline-block"
                   >
-                    <img
-                      width="523"
+                    <Image
                       alt="A mockup of a project"
                       src="https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%20Mockup-min.jpg"
-                      sizes="(max-width: 479px) 100vw, (max-width: 767px) 78vw, (max-width: 991px) 523px, 36vw"
-                      srcSet="
-                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%2520Mockup-min-p-500.jpeg  500w,
-                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%2520Mockup-min-p-800.jpeg  800w,
-                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6fd673507c1e_Team%20Mockup-min.jpg          1046w
-                    "
-                      className="mockup-img"
+                      width="783"
+                      height="668"
+                      className="mockup-img preserve-3d  duration-200 ease-out  hover:translate-x-2 hover:-translate-y-2  hover:translate3d(8px,-8px,0px) preserve-3d  duration-200 ease-out  hover:translate-x-2 hover:-translate-y-2  hover:translate3d(8px,-8px,0px)"
                     />
-                    <img
+                    <Image
                       src="https://uploads-ssl.webflow.com/5e1e0172db1e6f151e507c06/5e1e0172db1e6f27d4507c12_dot%20pattern-min.png"
                       width="101"
+                      height="376"
                       alt=""
                       className="dots"
                     />
@@ -146,18 +143,11 @@ export default function Home() {
                       beautiful blog. I have built the website and the blog in
                       Webflow which has one of the best CMS for blog hosting.
                     </p>
-                    <div
-                      data-w-id="51907583-8cfe-0024-ef94-42e104b8f07d"
-                      className="button-wrapper"
-                    >
+                    <div className="button-wrapper">
                       <div className="button-border">
                         <a
-                          style={{
-                            transform:
-                              "translate3d(-8px, -8px, 0) scale3d(1, 1, 1)rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          }}
                           href="/project/team-website"
-                          className="button w-button"
+                          className="button w-button preserve-3d w-button duration-200 ease-out  hover:translate-x-0 hover:translate-y-0 translate-z-0 -translate-x-2 -translate-y-2 scale-x-100 scale-y-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 hover:translate3d(0,0,0)"
                         >
                           see this project
                         </a>
@@ -166,9 +156,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div role="listitem" className="w-dyn-item">
-                <div className="project">
-                  <div className="left-column">
+              <div role="listitem" className="w-dyn-item   ">
+                <div className="project  ">
+                  <div className="left-column opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px]">
                     <h4 className="heading-5">latest work</h4>
                     <h1>Chat App website</h1>
                     <div className="tags-wrapper">
@@ -181,23 +171,19 @@ export default function Home() {
                     id="w-node-_5e88b46d-417e-778f-7af0-7ba57a92cc85-f5507c04"
                     data-w-id="5e88b46d-417e-778f-7af0-7ba57a92cc85"
                     href="/project/chat-app-website"
-                    className="mockup-column w-inline-block"
+                    className="mockup-column w-inline-block opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px]"
                   >
-                    <img
+                    <Image
                       width="523"
                       alt="A mockup of a project"
                       src="https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%20app-min.jpg"
-                      sizes="(max-width: 479px) 100vw, (max-width: 767px) 78vw, (max-width: 991px) 523px, 36vw"
-                      srcSet="
-                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%2520app-min-p-500.jpeg  500w,
-                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%2520app-min-p-800.jpeg  800w,
-                      https://uploads-ssl.webflow.com/5e1e0172db1e6f58d2507c09/5e1e0172db1e6f47a6507c1f_chat%20app-min.jpg          1046w
-                    "
-                      className="mockup-img"
+                      height="668"
+                      className="mockup-img preserve-3d  duration-200 ease-out  hover:translate-x-2 hover:-translate-y-2  hover:translate3d(8px,-8px,0px)"
                     />
-                    <img
+                    <Image
                       src="https://uploads-ssl.webflow.com/5e1e0172db1e6f151e507c06/5e1e0172db1e6f27d4507c12_dot%20pattern-min.png"
                       width="101"
+                      height="376"
                       alt=""
                       className="dots"
                     />
@@ -218,7 +204,10 @@ export default function Home() {
                       </div>
                     </div>
                   </a>
-                  <div id="w-node-ce64223d-3b0f-84b9-64bf-81bd6806b188-f5507c04">
+                  <div
+                    id="w-node-ce64223d-3b0f-84b9-64bf-81bd6806b188-f5507c04"
+                    className="opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0px_190px]"
+                  >
                     <p className="portfolio-paragraph">
                       This is a homepage design and build for a concept project
                       – a chat application. I designed the page first then built
@@ -230,12 +219,8 @@ export default function Home() {
                     >
                       <div className="button-border">
                         <a
-                          style={{
-                            transform:
-                              " translate3d(-8px, -8px, 0) scale3d(1, 1, 1)rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          }}
                           href="/project/chat-app-website"
-                          className="button w-button"
+                          className="button w-button preserve-3d w-button duration-200 ease-out  hover:translate-x-0 hover:translate-y-0 translate-z-0 -translate-x-2 -translate-y-2 scale-x-100 scale-y-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 hover:translate3d(0,0,0)"
                         >
                           see this project
                         </a>
@@ -251,43 +236,35 @@ export default function Home() {
       <div className="section">
         <div className="container">
           <div className="what-i-do">
-            <div
-              data-w-id="7b872fb9-abe8-ebfc-9a9b-4d0bbe0f1489"
-              className="left-column "
-            >
+            <div className="left-column ">
               <h1 className="hero-heading">What</h1>
-              <div
-                data-w-id="846a3ab5-5829-bc1b-9a32-a92b2ac61829"
-                className="highlight-box"
-              >
-                <div
-                  style={{
-                    transform:
-                      "translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0)rotateY(0) rotateZ(0) skew(0, 0)",
-                  }}
-                  className="highlight"
-                ></div>
+              <div className="highlight-box">
+                <div className="highlight leftSlideIn opacity-0"></div>
                 <h1 className="hero-heading">I do</h1>
               </div>
             </div>
             <div
               data-w-id="1aa15fbb-7cae-f258-366a-ed68997dbd00"
-              className="right-column"
+              className="right-column "
             >
-              <h3>Design</h3>
-              <p>
-                I design beautiful and powerful websites for modern businesses.
-                Any business today needs a website that wins customers’ trust
-                and helps you do your business well. I make sure your website is
-                up to that standard.
-              </p>
-              <h3 className="development-heading">Development</h3>
-              <p>
-                I build websites in Webflow where I can create responsive,
-                powerful and fully custom websites. Plus, Webflow has an
-                incredibly simple Content Editor for you and your team to edit
-                website content quickly and easily.
-              </p>
+              <div className="opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0px_190px]">
+                <h3>Design</h3>
+                <p>
+                  I design beautiful and powerful websites for modern
+                  businesses. Any business today needs a website that wins
+                  customers’ trust and helps you do your business well. I make
+                  sure your website is up to that standard.
+                </p>
+              </div>
+              <div className="opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0px_190px]">
+                <h3 className="development-heading">Development</h3>
+                <p>
+                  I build websites in Webflow where I can create responsive,
+                  powerful and fully custom websites. Plus, Webflow has an
+                  incredibly simple Content Editor for you and your team to edit
+                  website content quickly and easily.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -295,40 +272,28 @@ export default function Home() {
       <div id="footer" className="footer">
         <div className="container">
           <div className="want-to-work">
-            <div
-              data-w-id="d2975850-eaa6-2a4c-c8b9-3f2f222c21b6"
-              className="left-column"
-            >
+            <div className="left-column">
               <h1 className="hero-heading">Want to</h1>
-              <div
-                data-w-id="d2975850-eaa6-2a4c-c8b9-3f2f222c21b9"
-                className="highlight-box"
-              >
-                <div
-                  style={{
-                    transform:
-                      "translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                  }}
-                  className="highlight"
-                ></div>
+              <div className="highlight-box">
+                <div className="highlight leftSlideIn opacity-0"></div>
                 <h1 className="hero-heading">work?</h1>
               </div>
             </div>
-            <div
-              data-w-id="d2975850-eaa6-2a4c-c8b9-3f2f222c21bd"
-              className="right-column "
-            >
+            <div className="right-column ">
               <p>
                 If you need a modern and powerful website for your business,
                 startup or yourself, I am available for work. You can email me
                 directly at
-                <a href="mailto:hello@email.com" className="yellow-link">
-                  hello@email.com
+                <a
+                  href="mailto:contact@karimmena.com"
+                  className="yellow-link px-1"
+                >
+                  contact@karimmenna.com
                 </a>
               </p>
             </div>
           </div>
-          <div className="copyright">© All rights reserved – Karim</div>
+          <div className="copyright">© All rights reserved – Karim Menna</div>
         </div>
       </div>
       <div className="_24px"></div>

@@ -13,9 +13,29 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      
+      keyframes: {
+        "rightSlideIn": {
+          from: {
+            opacity: "0",
+            "transform-style": "preserve-3d",
+            "transform-origin": "right",
+            transform: "translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)  rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)"
+          },
+          to: {
+            opacity: "1",
+            "transform-style": "preserve-3d",
+            "transform-origin": "right",
+            transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)  rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)"
+          }
+        }
+      },
+      animation: {
+        "right-slide-in": "rightSlideIn  1s forwards "
+      }
     },
   },
+
+
   customProperties: {
     transformStyle: {
       preserve3d: 'preserve-3d',
