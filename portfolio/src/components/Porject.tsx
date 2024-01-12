@@ -1,13 +1,17 @@
 import Image from "next/image";
-import getData from "./getData";
+import getData from "./GetRepoInfo";
+import GetAllRepos from "./GetAllRepos";
 
 export default async function Project() {
-  const readMe = await getData({
-    repoName: "Hiring-software-engineer-frontend",
-    username: "chiefkarim",
-    branch:"development-karim"
-  });
-  // console.log("readme",readMe)
+ /* const allRepositories:any = await GetAllRepos("chiefkarim");
+  const reposInfos = []
+  for (const repo of allRepositories){
+    console.log("name:",repo.name)
+    reposInfos.push(await getData({repoName:repo.name,username:"chiefkarim"}))
+  }
+  console.log("reposInfos",reposInfos.length,reposInfos)
+  */
+  
   return (
     <div role="listitem" className="w-dyn-item   ">
       <div className="project  ">
