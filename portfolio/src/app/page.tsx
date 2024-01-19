@@ -214,7 +214,7 @@ export default function Home() {
                 startup or yourself, I am available for work. You can email me
                 directly at
                 <a
-                  href="mailto:contact@karimmena.com"
+                  href="mailto:contact@karimmenna.com"
                   className="yellow-link px-1"
                 >
                   contact@karimmenna.com

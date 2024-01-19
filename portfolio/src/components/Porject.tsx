@@ -3,7 +3,7 @@ import getData from "./GetRepoInfo";
 import GetAllRepos from "./GetAllRepos";
 
 export default async function Project() {
- /* const allRepositories:any = await GetAllRepos("chiefkarim");
+  /* const allRepositories:any = await GetAllRepos("chiefkarim");
   const reposInfos = []
   for (const repo of allRepositories){
     console.log("name:",repo.name)
@@ -11,11 +11,14 @@ export default async function Project() {
   }
   console.log("reposInfos",reposInfos.length,reposInfos)
   */
-  
+
   return (
-    <div role="listitem" className="w-dyn-item   ">
+    <div
+      role="listitem"
+      className="w-dyn-item  opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px] "
+    >
       <div className="project  ">
-        <div className="left-column opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px]">
+        <div className="left-column ">
           <h4 className="heading-5">latest work</h4>
           <h1>Chat App website</h1>
           <div className="tags-wrapper">
@@ -28,7 +31,7 @@ export default async function Project() {
           id="w-node-_5e88b46d-417e-778f-7af0-7ba57a92cc85-f5507c04"
           data-w-id="5e88b46d-417e-778f-7af0-7ba57a92cc85"
           href="/project/chat-app-website"
-          className="mockup-column w-inline-block opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px]"
+          className="mockup-column w-inline-block "
         >
           <Image
             width="523"
@@ -63,7 +66,7 @@ export default async function Project() {
         </a>
         <div
           id="w-node-ce64223d-3b0f-84b9-64bf-81bd6806b188-f5507c04"
-          className="opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0px_190px]"
+          className=""
         >
           <p className="portfolio-paragraph">
             This is a homepage design and build for a concept project – a chat
