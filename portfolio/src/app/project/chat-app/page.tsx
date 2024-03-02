@@ -1,9 +1,4 @@
-import GetRepoInfos from "@/components/GetRepoInfo";
-
-export default async function Page(context: any) {
-  console.log("props", context.params);
-  const repoName: string = context.params.project;
-  const repoInfos = await GetRepoInfos({ repoName: repoName ,branch:"development-karim"});
+export default async function Page() {
   return (
     <>
       <main>
@@ -44,35 +39,31 @@ export default async function Page(context: any) {
               className="container center"
             >
               <h4>project showcase</h4>
-              <h1>Team App website</h1>
+              <h1> Chat app</h1>
               <p className="header-paragraph">
-                Full website design and build for a concept team collaboration
-                platform. This website also includes a beautiful blog. I have
-                built the website and the blog in Webflow which has one of the
-                best CMS for blog hosting.
+                This is a homepage design and build for a concept project – a
+                chat application. I designed the page first then built a
+                responsive web page using Webflow.
               </p>
-              {repoInfos?.previewLink ? (
-                <a
-                  href={repoInfos.previewLink}
-                  target="_blank"
-                  className="live-site-link yellow-link"
-                >
-                  visit live site →
-                </a>
-              ) : null}
+
+              <a
+                href="https://chiefs-fantastic-site.webflow.io/"
+                target="_blank"
+                className="live-site-link yellow-link"
+              >
+                visit live site →
+              </a>
             </div>
           </div>
         </div>
         <div className="section">
           <div className="screen-container">
-            {repoInfos?.previewImage ? (
-              <img
-                alt="A screenshot of web page"
-                //  style="-webkit-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
-                src={repoInfos.previewImage}
-                className="screen-image"
-              />
-            ) : null}
+            <img
+              alt="A screenshot of web page"
+              //  style="-webkit-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+              src="/chatapp.jpg"
+              className="screen-image"
+            />
           </div>
         </div>
         <div className="footer">

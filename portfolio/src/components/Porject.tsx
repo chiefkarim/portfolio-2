@@ -1,16 +1,21 @@
 import Image from "next/image";
-import getData from "./GetRepoInfo";
+import GetRepoInfos from "./GetRepoInfo";
 import GetAllRepos from "./GetAllRepos";
 
 export default async function Project() {
-  /* const allRepositories:any = await GetAllRepos("chiefkarim");
-  const reposInfos = []
+   const allRepositories:any = await GetAllRepos();
+  const reposInfos:[] = []
   for (const repo of allRepositories){
-    console.log("name:",repo.name)
-    reposInfos.push(await getData({repoName:repo.name,username:"chiefkarim"}))
-  }
-  console.log("reposInfos",reposInfos.length,reposInfos)
-  */
+   console.log("name:",repo.name)
+   const result =  await GetRepoInfos({repoName:repo.name})
+   
+   if(result?.previewImage){
+     reposInfos.push()
+   }
+
+  } 
+  
+  console.log("repos",reposInfos)
 
   return (
     <div

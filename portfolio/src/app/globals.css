@@ -8,8 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -62,22 +60,32 @@ body {
 @keyframes leftSlideIn {
   from {
     opacity: 0;
-    transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transform-style: preserve-3d;
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    -ms-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    -o-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-}
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -ms-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -o-transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
   to {
     opacity: 1;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transform-style: preserve-3d;
-    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    -ms-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    -o-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-}
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -ms-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    -o-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
 }
 /*FOR THE SECOND header elemtn to slide after the first one */
 .leftSlideIn2 {
@@ -2416,7 +2424,7 @@ a {
   background-color: #f9efe7;
   flex: 1;
   align-items: flex-start;
-  padding: 22vh 60px 70px;
+  padding: 15vh 60px 70px;
   display: flex;
 }
 
