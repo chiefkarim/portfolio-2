@@ -305,6 +305,12 @@ export default function Home() {
                   contact@karimmenna.com
                 </a>
               </p>
+              <p>Social link</p>
+              <div className="flex flex-col">
+                <a href="https://www.linkedin.com/in/karimmenna/">Linkedin</a>
+                <a href="https://github.com/chiefkarim/">Github</a>
+                <a href="https://twitter.com/Karim32882557">Twitter</a>
+              </div>
             </div>
           </div>
           <div className="copyright">© All rights reserved – Karim Menna</div>
