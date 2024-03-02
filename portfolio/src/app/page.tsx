@@ -23,7 +23,7 @@ export default function Home() {
             aria-current="page"
             className="brand w-nav-brand w--current"
           >
-            <div className="logo">Chief Karim.</div>
+            <div className="logo">Karim.</div>
           </a>
           <nav role="navigation" className="nav-menu w-nav-menu">
             <a href="/#Portfolio" className="nav-link yellow-link w-nav-link">
