@@ -39,7 +39,7 @@ export default async function Page() {
               className="container center"
             >
               <h4>project showcase</h4>
-              <h1> Chat app</h1>
+              <h1> Team collaboration</h1>
               <p className="header-paragraph">
                 Full website design and build for a concept team collaboration
                 platform. This website also includes a beautiful blog. I have
