@@ -59,7 +59,8 @@ export default function Home() {
             </div>
             <p className="hero-paragraph fadeInUp delay-500">
               As a software engineer at
-              <a href="https://big-mama.io/"> Big-mama</a>, I specialize in
+              <a href="https://big-mama.io/"> Big-mama</a> working on{" "}
+              <a href="https://hyko.ai/about"> Hyko</a>, I specialize in
               crafting robust solutions using Docker, Next.js, and Strapi...
               with a passion for learning new technologies. Additionally, I
               offer freelance services in Shopify and Webflow development. I
