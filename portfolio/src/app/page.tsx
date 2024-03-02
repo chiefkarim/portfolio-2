@@ -1,4 +1,3 @@
-import Project from "@/components/Porject";
 import Image from "next/image";
 import Swup from "swup";
 
@@ -24,7 +23,7 @@ export default function Home() {
             aria-current="page"
             className="brand w-nav-brand w--current"
           >
-            <div className="logo">Karim.</div>
+            <div className="logo">Chief Karim.</div>
           </a>
           <nav role="navigation" className="nav-menu w-nav-menu">
             <a href="/#Portfolio" className="nav-link yellow-link w-nav-link">
