@@ -261,7 +261,7 @@ export default function Home() {
                   <a
                     id="w-node-_5e88b46d-417e-778f-7af0-7ba57a92cc85-f5507c04"
                     data-w-id="5e88b46d-417e-778f-7af0-7ba57a92cc85"
-                    href="/project/chat-app"
+                    href="/project/document-collaboration"
                     className="mockup-column w-inline-block "
                   >
                     <Image
