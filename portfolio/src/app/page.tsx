@@ -63,10 +63,9 @@ export default function Home() {
               <a href="https://hyko.ai/about"> Hyko</a>, I specialize in
               crafting robust solutions using Docker, Next.js, and Strapi...
               with a passion for learning new technologies. Additionally, I
-              offer freelance services in Shopify and Webflow development. I
-              love building websites and apps for global businesses and
-              individuals and seeing them rise. If you need a modern, powerful
-              website, send me an email for a time and cost estimate.
+              offer freelance services in Shopify and Webflow development. If
+              you need a modern, powerful website, send me an email for a time
+              and cost estimate.
             </p>
             <div className="button-wrapper fadeInUp delay-500">
               <div className="button-border">
