@@ -342,7 +342,7 @@ export default function Home() {
                     <Image
                       width="523"
                       alt="A mockup of a project"
-                      src="/document-collaboration-thumnail.png"
+                      src="/document-collaboration-thumbnail.png"
                       height="668"
                       className="mockup-img preserve-3d  duration-200 ease-out  hover:translate-x-2 hover:-translate-y-2  hover:translate3d(8px,-8px,0px)"
                     />
