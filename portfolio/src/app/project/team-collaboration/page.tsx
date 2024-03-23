@@ -1,3 +1,5 @@
+import { Footer } from "@/components/footer";
+
 export default async function Page() {
   return (
     <>
@@ -67,46 +69,7 @@ export default async function Page() {
             />
           </div>
         </div>
-        <div className="footer">
-          <div className="container">
-            <div className="want-to-work">
-              <div
-                data-w-id="4ba57714-af69-1729-2daa-1a97f3884cc6"
-                className="left-column opacity-0"
-              >
-                <h1 className="hero-heading">Want to</h1>
-                <div
-                  data-w-id="4ba57714-af69-1729-2daa-1a97f3884cc9"
-                  className="highlight-box"
-                >
-                  <div
-                    //style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-                    className="highlight"
-                  ></div>
-                  <h1 className="hero-heading">work?</h1>
-                </div>
-              </div>
-              <div
-                data-w-id="4ba57714-af69-1729-2daa-1a97f3884ccd"
-                className="right-column opacity-0"
-              >
-                <p>
-                  If you need a modern and powerful website for your business,
-                  startup or yourself, I am available for work. You can email me
-                  directly at{" "}
-                  <a
-                    href="mailto:contact@karimmenna.com"
-                    className="yellow-link"
-                  >
-                    contact@karimmenna.com
-                  </a>
-                </p>
-              </div>
-            </div>
-            <div className="copyright">© All rights reserved – YOUR NAME</div>
-          </div>
-        </div>
-        <div className="_24px"></div>
+        <Footer />
       </main>
     </>
   );

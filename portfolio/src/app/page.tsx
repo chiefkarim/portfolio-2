@@ -98,9 +98,89 @@ export default function Home() {
           <div className="w-dyn-list">
             <div role="list" className="w-dyn-items">
               <div role="listitem" className="w-dyn-item">
-                <div className="project opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px] ">
-                  <div className="left-column">
+                <div className="project  opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px]">
+                  <div className="left-column ">
                     <h4 className="heading-5">latest work</h4>
+                    <h1>Hyko</h1>
+                    <div className="tags-wrapper">
+                      <div className="tag">Docker</div>
+                      <div className="tag">DOcker compose</div>
+                      <div className="tag">zod validation</div>
+                      <div className="tag">toast messages</div>
+                      <div className="tag">node mailer</div>
+                      <div className="tag">Nextjs</div>
+                      <div className="tag">Tailwind</div>
+                      <div className="tag">Javascript</div>
+                      <div className="tag">html</div>
+                      <div className="tag">css</div>
+                    </div>
+                  </div>
+                  <a
+                    id="w-node-_5e88b46d-417e-778f-7af0-7ba57a92cc85-f5507c04"
+                    data-w-id="5e88b46d-417e-778f-7af0-7ba57a92cc85"
+                    href="/project/hyko"
+                    className="mockup-column w-inline-block "
+                  >
+                    <Image
+                      width="523"
+                      alt="A mockup of a project"
+                      src="/hyko-thumnail.jpg
+                      "
+                      height="668"
+                      className="mockup-img preserve-3d  duration-200 ease-out  hover:translate-x-2 hover:-translate-y-2  hover:translate3d(8px,-8px,0px)"
+                    />
+                    <Image
+                      src="https://uploads-ssl.webflow.com/5e1e0172db1e6f151e507c06/5e1e0172db1e6f27d4507c12_dot%20pattern-min.png"
+                      width="101"
+                      height="376"
+                      alt=""
+                      className="dots"
+                    />
+                    <div className="mockup-hover">
+                      <div
+                        data-w-id="d9705062-deb4-607b-0803-00a0c2b1317b"
+                        className="mockup-hover-text"
+                      >
+                        See this project
+                      </div>
+                      <div className="mockup-arrow-wrapper">
+                        <img
+                          src="https://uploads-ssl.webflow.com/5e1e0172db1e6f151e507c06/5e1e0172db1e6feadc507c16_ic-arrow-forward-18px.svg"
+                          data-w-id="1944b083-0408-23b8-a620-61953dbd318c"
+                          alt=""
+                          className="mockup-arrow"
+                        />
+                      </div>
+                    </div>
+                  </a>
+                  <div
+                    id="w-node-ce64223d-3b0f-84b9-64bf-81bd6806b188-f5507c04"
+                    className=""
+                  >
+                    <p className="portfolio-paragraph">
+                      hybrid AI platform harnessing the power of AI and human
+                      expertise to tackle diverse challenges. From individuals
+                      to large enterprises.
+                    </p>
+                    <div
+                      data-w-id="51907583-8cfe-0024-ef94-42e104b8f07d"
+                      className="button-wrapper"
+                    >
+                      <div className="button-border">
+                        <a
+                          href="/project/hyko"
+                          className="button w-button preserve-3d w-button duration-200 ease-out  hover:translate-x-0 hover:translate-y-0 translate-z-0 -translate-x-2 -translate-y-2 scale-x-100 scale-y-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 hover:translate3d(0,0,0)"
+                        >
+                          see this project
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div role="listitem" className="w-dyn-item">
+                <div className="project opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px]">
+                  <div className="left-column">
                     <h1>Team App website</h1>
                     <div className="tags-wrapper">
                       <div className="tag">Website Design</div>
@@ -166,13 +246,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div
-                role="listitem"
-                className="w-dyn-item  opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px] "
-              >
-                <div className="project  ">
-                  <div className="left-column ">
-                    <h4 className="heading-5">latest work</h4>
+              <div role="listitem" className="w-dyn-item">
+                <div className="project  opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px]">
+                  <div className="left-column">
                     <h1>Chat App website</h1>
                     <div className="tags-wrapper">
                       <div className="tag">Website Design</div>
@@ -242,9 +318,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="project  ">
+              </div>
+              <div role="listitem" className="w-dyn-item">
+                <div className="project  opacity-0 animate-right-slide-in  [animation-timeline:view()] [animation-range:0_600px]">
                   <div className="left-column ">
-                    <h4 className="heading-5">latest work</h4>
                     <h1>Document collaboration</h1>
                     <div className="tags-wrapper">
                       <div className="tag">Website Design</div>
@@ -388,7 +465,7 @@ export default function Home() {
                   contact@karimmenna.com
                 </a>
               </p>
-              <p>Social link</p>
+              <p>Social links</p>
               <div className="flex flex-col">
                 <a href="https://www.linkedin.com/in/karimmenna/">Linkedin</a>
                 <a href="https://github.com/chiefkarim/">Github</a>
