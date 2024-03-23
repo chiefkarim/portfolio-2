@@ -118,13 +118,12 @@ export default function Home() {
                     id="w-node-_5e88b46d-417e-778f-7af0-7ba57a92cc85-f5507c04"
                     data-w-id="5e88b46d-417e-778f-7af0-7ba57a92cc85"
                     href="/project/hyko"
-                    className="mockup-column w-inline-block "
+                    className="mockup-column w-inline-block"
                   >
                     <Image
                       width="523"
                       alt="A mockup of a project"
-                      src="/hyko-thumnail.jpg
-                      "
+                      src="/hyko-thumbnail.jpg"
                       height="668"
                       className="mockup-img preserve-3d  duration-200 ease-out  hover:translate-x-2 hover:-translate-y-2  hover:translate3d(8px,-8px,0px)"
                     />
