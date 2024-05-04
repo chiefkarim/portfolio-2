@@ -20,7 +20,7 @@ export default function page() {
                 my work
               </a>
               <a
-                href="mailto:hello@email.com"
+                href="mailto:contact@karimmenna.com"
                 className="nav-link yellow-link w-nav-link"
               >
                 get in touch
